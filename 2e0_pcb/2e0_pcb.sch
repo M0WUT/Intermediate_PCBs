@@ -1,0 +1,748 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "General PCB"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC547 Q1
+U 1 1 5D682A78
+P 2450 3100
+F 0 "Q1" H 2641 3146 50  0000 L CNN
+F 1 "BC547CBU" H 2641 3055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2650 3025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2450 3100 50  0001 L CNN
+	1    2450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D684A13
+P 2000 3100
+F 0 "R1" V 1793 3100 50  0000 C CNN
+F 1 "150k" V 1884 3100 50  0000 C CNN
+F 2 "" V 1930 3100 50  0001 C CNN
+F 3 "~" H 2000 3100 50  0001 C CNN
+	1    2000 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 3100 2250 3100
+$Comp
+L power:GND #PWR02
+U 1 1 5D684EB3
+P 2550 3450
+F 0 "#PWR02" H 2550 3200 50  0001 C CNN
+F 1 "GND" H 2555 3277 50  0000 C CNN
+F 2 "" H 2550 3450 50  0001 C CNN
+F 3 "" H 2550 3450 50  0001 C CNN
+	1    2550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3450 2550 3300
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5D68576A
+P 1500 2650
+F 0 "J1" V 1464 2462 50  0000 R CNN
+F 1 "Conn_01x02" V 1373 2462 50  0000 R CNN
+F 2 "" H 1500 2650 50  0001 C CNN
+F 3 "~" H 1500 2650 50  0001 C CNN
+	1    1500 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 2850 1600 3100
+Wire Wire Line
+	1600 3100 1850 3100
+$Comp
+L Device:R R2
+U 1 1 5D687424
+P 2550 2700
+F 0 "R2" H 2620 2746 50  0000 L CNN
+F 1 "330" H 2620 2655 50  0000 L CNN
+F 2 "" V 2480 2700 50  0001 C CNN
+F 3 "~" H 2550 2700 50  0001 C CNN
+	1    2550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2900 2550 2850
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5D687A43
+P 2750 1900
+F 0 "J2" H 2830 1892 50  0000 L CNN
+F 1 "Conn_01x02" H 2830 1801 50  0000 L CNN
+F 2 "" H 2750 1900 50  0001 C CNN
+F 3 "~" H 2750 1900 50  0001 C CNN
+	1    2750 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2000 2550 2150
+Wire Wire Line
+	2550 1900 2550 1800
+Wire Wire Line
+	2550 1800 1950 1800
+Wire Wire Line
+	1350 1800 1350 2850
+Wire Wire Line
+	1350 2850 1500 2850
+$Comp
+L Device:Battery BT1
+U 1 1 5D6898D6
+P 8850 2650
+F 0 "BT1" H 8958 2696 50  0000 L CNN
+F 1 "Battery" H 8958 2605 50  0000 L CNN
+F 2 "" V 8850 2710 50  0001 C CNN
+F 3 "~" V 8850 2710 50  0001 C CNN
+	1    8850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5D68B322
+P 8850 2950
+F 0 "#PWR04" H 8850 2700 50  0001 C CNN
+F 1 "GND" H 8855 2777 50  0000 C CNN
+F 2 "" H 8850 2950 50  0001 C CNN
+F 3 "" H 8850 2950 50  0001 C CNN
+	1    8850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2950 8850 2850
+$Comp
+L power:+BATT #PWR03
+U 1 1 5D68B7F5
+P 8850 2100
+F 0 "#PWR03" H 8850 1950 50  0001 C CNN
+F 1 "+BATT" H 8865 2273 50  0000 C CNN
+F 2 "" H 8850 2100 50  0001 C CNN
+F 3 "" H 8850 2100 50  0001 C CNN
+	1    8850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2100 8850 2350
+$Comp
+L power:+BATT #PWR01
+U 1 1 5D68C25F
+P 1950 1650
+F 0 "#PWR01" H 1950 1500 50  0001 C CNN
+F 1 "+BATT" H 1965 1823 50  0000 C CNN
+F 2 "" H 1950 1650 50  0001 C CNN
+F 3 "" H 1950 1650 50  0001 C CNN
+	1    1950 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1650 1950 1800
+Connection ~ 1950 1800
+Wire Wire Line
+	1950 1800 1350 1800
+Text Notes 1600 2250 0    50   ~ 0
+Short the pins not\nbeing measured
+Text Notes 1050 3400 0    50   ~ 0
++BATT = 9V\nVbe = 0.7V\nIb = (9-0.7) / 150k = 55uA
+Text Notes 2750 3000 0    50   ~ 0
+Ic = ß * Ib = 200(ish) * 50uA = 10mA
+$Comp
+L Device:LED D1
+U 1 1 5D68DB23
+P 2550 2300
+F 0 "D1" V 2589 2182 50  0000 R CNN
+F 1 "L-934ID" V 2498 2182 50  0000 R CNN
+F 2 "" H 2550 2300 50  0001 C CNN
+F 3 "~" H 2550 2300 50  0001 C CNN
+	1    2550 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 2450 2550 2550
+Text Notes 3100 2350 0    50   ~ 0
+Vf = 2V
+Text Notes 2750 2900 0    50   ~ 0
+Vce = 4V
+Wire Notes Line
+	900  1400 900  3750
+Wire Notes Line
+	900  3750 4350 3750
+Wire Notes Line
+	4350 3750 4350 1400
+Wire Notes Line
+	4350 1400 900  1400
+Text Notes 750  1200 0    100  ~ 0
+Transistor as Switch / Beta Measurement (10B4)
+$Comp
+L 74xx:74HC14 U1
+U 1 1 5D699C0F
+P 1700 5500
+F 0 "U1" H 1700 5817 50  0000 C CNN
+F 1 "74HC14" H 1700 5726 50  0000 C CNN
+F 2 "" H 1700 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 1700 5500 50  0001 C CNN
+	1    1700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D69A6C2
+P 1700 4950
+F 0 "R3" V 1493 4950 50  0000 C CNN
+F 1 "1M" V 1584 4950 50  0000 C CNN
+F 2 "" V 1630 4950 50  0001 C CNN
+F 3 "~" H 1700 4950 50  0001 C CNN
+	1    1700 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 5500 1400 5500
+Wire Wire Line
+	1850 4950 2350 4950
+Wire Wire Line
+	2350 4950 2350 5500
+Wire Wire Line
+	2350 5500 2000 5500
+$Comp
+L Device:Crystal Y1
+U 1 1 5D69B626
+P 1700 6200
+F 0 "Y1" H 1700 6468 50  0000 C CNN
+F 1 "9B-14.31818MAAE-B" H 1700 6377 50  0000 C CNN
+F 2 "" H 1700 6200 50  0001 C CNN
+F 3 "~" H 1700 6200 50  0001 C CNN
+	1    1700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D69C569
+P 2350 5900
+F 0 "R4" H 2420 5946 50  0000 L CNN
+F 1 "1k" H 2420 5855 50  0000 L CNN
+F 2 "" V 2280 5900 50  0001 C CNN
+F 3 "~" H 2350 5900 50  0001 C CNN
+	1    2350 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5750 2350 5500
+Connection ~ 2350 5500
+Wire Wire Line
+	1850 6200 2350 6200
+Wire Wire Line
+	2350 6200 2350 6050
+Wire Wire Line
+	1550 6200 1100 6200
+Wire Wire Line
+	1100 6200 1100 5500
+$Comp
+L Device:C C1
+U 1 1 5D69DB9F
+P 1100 6600
+F 0 "C1" H 1215 6646 50  0000 L CNN
+F 1 "12p" H 1215 6555 50  0000 L CNN
+F 2 "" H 1138 6450 50  0001 C CNN
+F 3 "~" H 1100 6600 50  0001 C CNN
+	1    1100 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5D69E031
+P 2350 6600
+F 0 "C2" H 2465 6646 50  0000 L CNN
+F 1 "12p" H 2465 6555 50  0000 L CNN
+F 2 "" H 2388 6450 50  0001 C CNN
+F 3 "~" H 2350 6600 50  0001 C CNN
+	1    2350 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 6450 1100 6200
+Connection ~ 1100 6200
+Wire Wire Line
+	2350 6450 2350 6200
+Connection ~ 2350 6200
+$Comp
+L power:GND #PWR0101
+U 1 1 5D69EE35
+P 1700 6900
+F 0 "#PWR0101" H 1700 6650 50  0001 C CNN
+F 1 "GND" H 1705 6727 50  0000 C CNN
+F 2 "" H 1700 6900 50  0001 C CNN
+F 3 "" H 1700 6900 50  0001 C CNN
+	1    1700 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 6750 1100 6850
+Wire Wire Line
+	1100 6850 1700 6850
+Wire Wire Line
+	1700 6900 1700 6850
+Connection ~ 1700 6850
+$Comp
+L 74xx:74HC14 U1
+U 2 1 5D69FED9
+P 2800 5500
+F 0 "U1" H 2800 5817 50  0000 C CNN
+F 1 "74HC14" H 2800 5726 50  0000 C CNN
+F 2 "" H 2800 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 2800 5500 50  0001 C CNN
+	2    2800 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5500 2350 5500
+Wire Wire Line
+	2350 6850 2350 6750
+Wire Wire Line
+	1700 6850 2350 6850
+Wire Wire Line
+	1100 4950 1100 5500
+Wire Wire Line
+	1100 4950 1550 4950
+Connection ~ 1100 5500
+$Comp
+L power:GND #PWR0102
+U 1 1 5D6E30A4
+P 4850 6400
+F 0 "#PWR0102" H 4850 6150 50  0001 C CNN
+F 1 "GND" H 4855 6227 50  0000 C CNN
+F 2 "" H 4850 6400 50  0001 C CNN
+F 3 "" H 4850 6400 50  0001 C CNN
+	1    4850 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5D6EA0E7
+P 3800 5500
+F 0 "SW1" H 3800 5785 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 3800 5694 50  0000 C CNN
+F 2 "" H 3800 5500 50  0001 C CNN
+F 3 "~" H 3800 5500 50  0001 C CNN
+	1    3800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 2 1 5D6EBA2D
+P 5900 5500
+F 0 "SW1" H 5900 5785 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 5900 5694 50  0000 C CNN
+F 2 "" H 5900 5500 50  0001 C CNN
+F 3 "~" H 5900 5500 50  0001 C CNN
+	2    5900 5500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5600 4000 5800
+Wire Wire Line
+	5700 5600 5700 5800
+Wire Wire Line
+	4000 5400 5700 5400
+$Comp
+L Device:R R5
+U 1 1 5D70090F
+P 3350 5500
+F 0 "R5" V 3143 5500 50  0000 C CNN
+F 1 "51R" V 3234 5500 50  0000 C CNN
+F 2 "" V 3280 5500 50  0001 C CNN
+F 3 "~" H 3350 5500 50  0001 C CNN
+	1    3350 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 5500 3600 5500
+Wire Wire Line
+	3200 5500 3100 5500
+Text Notes 4450 5350 0    50   ~ 0
+Switchable 16MHz LPF
+Text Notes 1000 4450 0    100  ~ 0
+Crystal Oscillator (10C4)
+Wire Notes Line
+	6250 6650 6250 5100
+Wire Notes Line
+	6250 5100 3550 5100
+Text Notes 3550 6850 0    100  ~ 0
+Effects of LPF on harmonics (10C7)
+Wire Notes Line
+	3550 6650 6250 6650
+Wire Notes Line
+	3550 5100 3550 6650
+$Comp
+L 74xx:74HC14 U1
+U 7 1 5D6F6B3D
+P 9200 4300
+F 0 "U1" H 9430 4346 50  0000 L CNN
+F 1 "74HC14" H 9430 4255 50  0000 L CNN
+F 2 "" H 9200 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 9200 4300 50  0001 C CNN
+	7    9200 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 1150 4600 0    50   ~ 0
+Squared up for lots of harmonics (10C6)
+Text Notes 1350 1350 0    50   ~ 0
+Voltage and Current of R1 and R2 are easy to measure (10C3)
+$Comp
+L power:+5V #PWR0104
+U 1 1 5D7B1057
+P 9200 3850
+F 0 "#PWR0104" H 9200 3700 50  0001 C CNN
+F 1 "+5V" H 9215 4023 50  0000 C CNN
+F 2 "" H 9200 3850 50  0001 C CNN
+F 3 "" H 9200 3850 50  0001 C CNN
+	1    9200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5D7C6203
+P 6650 5500
+F 0 "TP1" H 6708 5618 50  0000 L CNN
+F 1 "TestPoint" H 6708 5527 50  0000 L CNN
+F 2 "" H 6850 5500 50  0001 C CNN
+F 3 "~" H 6850 5500 50  0001 C CNN
+	1    6650 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 5500 6500 5500
+Wire Wire Line
+	5700 5800 5600 5800
+Wire Wire Line
+	4000 5800 4100 5800
+Wire Wire Line
+	4850 6400 4850 6300
+Wire Wire Line
+	5600 5800 5600 5900
+Connection ~ 5600 5800
+Wire Wire Line
+	5500 5800 5600 5800
+Wire Wire Line
+	5100 5800 5200 5800
+Wire Wire Line
+	5100 5900 5100 5800
+Connection ~ 5100 5800
+Wire Wire Line
+	5000 5800 5100 5800
+Wire Wire Line
+	4600 5800 4700 5800
+Wire Wire Line
+	4600 5900 4600 5800
+Connection ~ 4600 5800
+Wire Wire Line
+	4500 5800 4600 5800
+Wire Wire Line
+	4100 5800 4100 5900
+Connection ~ 4100 5800
+Wire Wire Line
+	4200 5800 4100 5800
+Connection ~ 4850 6300
+Wire Wire Line
+	4600 6300 4850 6300
+Wire Wire Line
+	4600 6200 4600 6300
+Wire Wire Line
+	4850 6300 5100 6300
+Wire Wire Line
+	5100 6300 5600 6300
+Connection ~ 5100 6300
+Wire Wire Line
+	5100 6200 5100 6300
+Wire Wire Line
+	5600 6300 5600 6200
+Connection ~ 4600 6300
+Wire Wire Line
+	4100 6300 4600 6300
+Wire Wire Line
+	4100 6200 4100 6300
+$Comp
+L Device:C C5
+U 1 1 5D6C7FB4
+P 5100 6050
+F 0 "C5" H 5215 6096 50  0000 L CNN
+F 1 "390p" H 5215 6005 50  0000 L CNN
+F 2 "" H 5138 5900 50  0001 C CNN
+F 3 "~" H 5100 6050 50  0001 C CNN
+	1    5100 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L3
+U 1 1 5D6C73EF
+P 5350 5800
+F 0 "L3" V 5540 5800 50  0000 C CNN
+F 1 "1u" V 5449 5800 50  0000 C CNN
+F 2 "" H 5350 5800 50  0001 C CNN
+F 3 "~" H 5350 5800 50  0001 C CNN
+	1    5350 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 5D6C5842
+P 4850 5800
+F 0 "L2" V 5040 5800 50  0000 C CNN
+F 1 "1u" V 4949 5800 50  0000 C CNN
+F 2 "" H 4850 5800 50  0001 C CNN
+F 3 "~" H 4850 5800 50  0001 C CNN
+	1    4850 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5D6C5487
+P 5600 6050
+F 0 "C6" H 5715 6096 50  0000 L CNN
+F 1 "220p" H 5715 6005 50  0000 L CNN
+F 2 "" H 5638 5900 50  0001 C CNN
+F 3 "~" H 5600 6050 50  0001 C CNN
+	1    5600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D6C4CAF
+P 4600 6050
+F 0 "C4" H 4715 6096 50  0000 L CNN
+F 1 "390p" H 4715 6005 50  0000 L CNN
+F 2 "" H 4638 5900 50  0001 C CNN
+F 3 "~" H 4600 6050 50  0001 C CNN
+	1    4600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5D6C3E56
+P 4350 5800
+F 0 "L1" V 4540 5800 50  0000 C CNN
+F 1 "1u" V 4449 5800 50  0000 C CNN
+F 2 "" H 4350 5800 50  0001 C CNN
+F 3 "~" H 4350 5800 50  0001 C CNN
+	1    4350 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D6C3A6E
+P 4100 6050
+F 0 "C3" H 4215 6096 50  0000 L CNN
+F 1 "220p" H 4215 6005 50  0000 L CNN
+F 2 "" H 4138 5900 50  0001 C CNN
+F 3 "~" H 4100 6050 50  0001 C CNN
+	1    4100 6050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 5500
+Wire Wire Line
+	6500 5500 6650 5500
+Wire Wire Line
+	6500 5650 6500 5500
+$Comp
+L Device:R R6
+U 1 1 5D7CA86E
+P 6500 5800
+F 0 "R6" H 6570 5846 50  0000 L CNN
+F 1 "51R" H 6570 5755 50  0000 L CNN
+F 2 "" V 6430 5800 50  0001 C CNN
+F 3 "~" H 6500 5800 50  0001 C CNN
+	1    6500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5D7CE34C
+P 6500 6000
+F 0 "#PWR0105" H 6500 5750 50  0001 C CNN
+F 1 "GND" H 6505 5827 50  0000 C CNN
+F 2 "" H 6500 6000 50  0001 C CNN
+F 3 "" H 6500 6000 50  0001 C CNN
+	1    6500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 6000 6500 5950
+Wire Notes Line
+	9050 6450 9050 5050
+Wire Notes Line
+	9650 5050 9650 6450
+Wire Notes Line
+	9050 5200 11100 5200
+Wire Notes Line
+	10700 5050 10700 6450
+Wire Notes Line
+	11100 6450 9050 6450
+Wire Notes Line
+	11100 5050 11100 6450
+Wire Notes Line
+	9050 5050 11100 5050
+Text Notes 10750 6400 0    50   ~ 0
+Board\n\nNeither\nVFO\nGeneral\nGeneral\nVFO\nNeither\nGeneral\nNeither\nGeneral\nGeneral\nVFO\nGeneral\nGeneral\nVFO\n
+Text Notes 9100 6400 0    50   ~ 0
+Requirement    Description\n\n10B1           Setup station\n10B2           Good solder joints\n10B3           LEDs in series / parallel\n10B4           Transistor as switch\n10B5           Build a project\n10B6           Fit an RF connector\n10C1           Measure V and I\n10C2           Identify Resistors\n10C3           R=V/I\n10C4           Temp stabilty of xtal\n10C5           Temp stability of LC\n10C6           Find Harmonics\n10C7           Effect of LPF\n10C8           Calibrate VFO
+$Comp
+L 74xx:74HC14 U1
+U 3 1 5D84DA9D
+P 10000 4100
+F 0 "U1" H 10000 4417 50  0000 C CNN
+F 1 "74HC14" H 10000 4326 50  0000 C CNN
+F 2 "" H 10000 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 10000 4100 50  0001 C CNN
+	3    10000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U1
+U 4 1 5D84F76D
+P 10700 4100
+F 0 "U1" H 10700 4417 50  0000 C CNN
+F 1 "74HC14" H 10700 4326 50  0000 C CNN
+F 2 "" H 10700 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 10700 4100 50  0001 C CNN
+	4    10700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U1
+U 5 1 5D850D59
+P 10000 4600
+F 0 "U1" H 10000 4917 50  0000 C CNN
+F 1 "74HC14" H 10000 4826 50  0000 C CNN
+F 2 "" H 10000 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 10000 4600 50  0001 C CNN
+	5    10000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U1
+U 6 1 5D8527CB
+P 10700 4600
+F 0 "U1" H 10700 4917 50  0000 C CNN
+F 1 "74HC14" H 10700 4826 50  0000 C CNN
+F 2 "" H 10700 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 10700 4600 50  0001 C CNN
+	6    10700 4600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9700 4100
+NoConn ~ 9700 4600
+NoConn ~ 10300 4600
+NoConn ~ 10300 4100
+NoConn ~ 10400 4100
+NoConn ~ 10400 4600
+NoConn ~ 11000 4600
+NoConn ~ 11000 4100
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D85F7E1
+P 8550 2350
+F 0 "#FLG0101" H 8550 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 8550 2523 50  0000 C CNN
+F 2 "" H 8550 2350 50  0001 C CNN
+F 3 "~" H 8550 2350 50  0001 C CNN
+	1    8550 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2350 8850 2350
+Connection ~ 8850 2350
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D86AFD6
+P 8550 2900
+F 0 "#FLG?" H 8550 2975 50  0001 C CNN
+F 1 "PWR_FLAG" H 8550 3073 50  0000 C CNN
+F 2 "" H 8550 2900 50  0001 C CNN
+F 3 "~" H 8550 2900 50  0001 C CNN
+	1    8550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2900 8550 2950
+Wire Wire Line
+	8550 2950 8850 2950
+Connection ~ 8850 2950
+Wire Notes Line
+	900  4650 3100 4650
+Wire Notes Line
+	3100 4650 3100 7150
+Wire Notes Line
+	3100 7150 900  7150
+Wire Notes Line
+	900  7150 900  4650
+Text Notes 6450 5250 0    50   ~ 0
+Just stick a long bit of\nwire here as an antenna!
+Wire Wire Line
+	9200 3850 9200 3800
+$Comp
+L power:GND #PWR0103
+U 1 1 5D6F9F97
+P 9200 4800
+F 0 "#PWR0103" H 9200 4550 50  0001 C CNN
+F 1 "GND" H 9205 4627 50  0000 C CNN
+F 2 "" H 9200 4800 50  0001 C CNN
+F 3 "" H 9200 4800 50  0001 C CNN
+	1    9200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5D8AFED2
+P 9500 2600
+F 0 "J?" H 9580 2592 50  0000 L CNN
+F 1 "Conn_01x02" H 9580 2501 50  0000 L CNN
+F 2 "" H 9500 2600 50  0001 C CNN
+F 3 "~" H 9500 2600 50  0001 C CNN
+	1    9500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2600 9300 2350
+Wire Wire Line
+	9300 2350 8850 2350
+Wire Wire Line
+	8850 2950 9300 2950
+Wire Wire Line
+	9300 2950 9300 2700
+$Comp
+L Connector:Jack-DC J?
+U 1 1 5D8C3238
+P 10500 2650
+F 0 "J?" H 10270 2700 50  0000 R CNN
+F 1 "Jack-DC" H 10270 2609 50  0000 R CNN
+F 2 "" H 10550 2610 50  0001 C CNN
+F 3 "~" H 10550 2610 50  0001 C CNN
+	1    10500 2650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2550 10200 2350
+Wire Wire Line
+	10200 2350 9300 2350
+Connection ~ 9300 2350
+Wire Wire Line
+	9300 2950 10200 2950
+Wire Wire Line
+	10200 2950 10200 2750
+Connection ~ 9300 2950
+Wire Wire Line
+	8850 2450 8850 2350
+Text Notes 9450 2250 0    50   ~ 0
+All the connector options :)
+$EndSCHEMATC
