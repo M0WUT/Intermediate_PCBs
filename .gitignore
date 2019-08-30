@@ -24,3 +24,4 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+2e0_pcb/general_rc1.pdf

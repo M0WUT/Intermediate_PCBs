@@ -1013,7 +1013,6 @@ Connection ~ 7250 5350
 Wire Notes Line
 	6100 4200 8900 4200
 NoConn ~ 4600 5850
-NoConn ~ 4000 5850
 $Comp
 L power:+5V #PWR010
 U 1 1 5D8D39EF
@@ -1072,4 +1071,19 @@ Wire Notes Line
 	8900 4200 8900 5700
 Text Notes 4700 2800 0    50   ~ 0
 Freq = 3.58MHz
+$Comp
+L power:GND #PWR?
+U 1 1 5D97038E
+P 3900 6000
+F 0 "#PWR?" H 3900 5750 50  0001 C CNN
+F 1 "GND" H 3905 5827 50  0000 C CNN
+F 2 "" H 3900 6000 50  0001 C CNN
+F 3 "" H 3900 6000 50  0001 C CNN
+	1    3900 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6000 3900 5850
+Wire Wire Line
+	3900 5850 4000 5850
 $EndSCHEMATC
