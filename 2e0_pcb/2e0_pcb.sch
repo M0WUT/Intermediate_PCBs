@@ -20,8 +20,11 @@ U 1 1 5D682A78
 P 2200 2750
 F 0 "Q1" H 2391 2796 50  0000 L CNN
 F 1 "BC547CBU" H 2391 2705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 2675 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L" H 2400 2675 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2200 2750 50  0001 L CNN
+F 4 "ON Semiconductor" H 2200 2750 50  0001 C CNN "Manufacturer"
+F 5 "BC547CBU" H 2200 2750 50  0001 C CNN "MPN"
+F 6 "2453791" H 2200 2750 50  0001 C CNN "Farnell #"
 	1    2200 2750
 	1    0    0    -1  
 $EndComp
@@ -29,10 +32,13 @@ $Comp
 L Device:R R2
 U 1 1 5D684A13
 P 1750 2750
-F 0 "R2" V 1543 2750 50  0000 C CNN
+F 0 "R2" V 1850 2750 50  0000 C CNN
 F 1 "150k" V 1634 2750 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1680 2750 50  0001 C CNN
 F 3 "~" H 1750 2750 50  0001 C CNN
+F 4 "Vishay" V 1750 2750 50  0001 C CNN "Manufacturer"
+F 5 "MRS25000C1503FCT00" V 1750 2750 50  0001 C CNN "MPN"
+F 6 "9464620" V 1750 2750 50  0001 C CNN "Farnell #"
 	1    1750 2750
 	0    -1   -1   0   
 $EndComp
@@ -54,9 +60,12 @@ L Connector_Generic:Conn_01x02 J1
 U 1 1 5D68576A
 P 1250 2300
 F 0 "J1" V 1214 2112 50  0000 R CNN
-F 1 "Conn_01x02" V 1123 2112 50  0000 R CNN
+F 1 "Conn_01x02" V 1123 2112 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 2300 50  0001 C CNN
 F 3 "~" H 1250 2300 50  0001 C CNN
+F 4 "Molex" V 1250 2300 50  0001 C CNN "Manufacturer"
+F 5 "22-28-4020" V 1250 2300 50  0001 C CNN "MPN"
+F 6 "2856679" V 1250 2300 50  0001 C CNN "Farnell #"
 	1    1250 2300
 	0    -1   -1   0   
 $EndComp
@@ -70,6 +79,9 @@ F 0 "R3" H 2370 2396 50  0000 L CNN
 F 1 "330" H 2370 2305 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 2350 50  0001 C CNN
 F 3 "~" H 2300 2350 50  0001 C CNN
+F 4 "Vishay" H 2300 2350 50  0001 C CNN "Manufacturer"
+F 5 "MRS25000C3300FCT00" H 2300 2350 50  0001 C CNN "MPN"
+F 6 "9467327" H 2300 2350 50  0001 C CNN "Farnell #"
 	1    2300 2350
 	1    0    0    -1  
 $EndComp
@@ -80,9 +92,12 @@ L Connector_Generic:Conn_01x02 J2
 U 1 1 5D687A43
 P 2500 1550
 F 0 "J2" H 2580 1542 50  0000 L CNN
-F 1 "Conn_01x02" H 2580 1451 50  0000 L CNN
+F 1 "Conn_01x02" H 2580 1451 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2500 1550 50  0001 C CNN
 F 3 "~" H 2500 1550 50  0001 C CNN
+F 4 "Molex" H 2500 1550 50  0001 C CNN "Manufacturer"
+F 5 "22-28-4020" H 2500 1550 50  0001 C CNN "MPN"
+F 6 "2856679" H 2500 1550 50  0001 C CNN "Farnell #"
 	1    2500 1550
 	1    0    0    -1  
 $EndComp
@@ -139,6 +154,9 @@ F 0 "D2" V 2339 1832 50  0000 R CNN
 F 1 "HLMP-1521" V 2248 1832 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" H 2300 1950 50  0001 C CNN
 F 3 "~" H 2300 1950 50  0001 C CNN
+F 4 "Broadcom" V 2300 1950 50  0001 C CNN "Manufacturer"
+F 5 "HLMP-1521" V 2300 1950 50  0001 C CNN "MPN"
+F 6 "1003375" V 2300 1950 50  0001 C CNN "Farnell #"
 	1    2300 1950
 	0    -1   -1   0   
 $EndComp
@@ -159,9 +177,12 @@ L 74xx:74HC14 U2
 U 1 1 5D699C0F
 P 5000 1850
 F 0 "U2" H 5000 2167 50  0000 C CNN
-F 1 "74AC14" H 5000 2076 50  0000 C CNN
+F 1 "74HC04" H 5000 2076 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5000 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 5000 1850 50  0001 C CNN
+F 4 "Texas Instruments" H 5000 1850 50  0001 C CNN "Manufacturer"
+F 5 "CD74HC04E" H 5000 1850 50  0001 C CNN "MPN"
+F 6 "3120186" H 5000 1850 50  0001 C CNN "Farnell #"
 	1    5000 1850
 	1    0    0    -1  
 $EndComp
@@ -173,6 +194,9 @@ F 0 "R5" V 4793 1350 50  0000 C CNN
 F 1 "1M" V 4884 1350 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 1350 50  0001 C CNN
 F 3 "~" H 5000 1350 50  0001 C CNN
+F 4 "Vishay" V 5000 1350 50  0001 C CNN "Manufacturer"
+F 5 "MRS25000C1004FCT00" V 5000 1350 50  0001 C CNN "MPN"
+F 6 "9465499" V 5000 1350 50  0001 C CNN "Farnell #"
 	1    5000 1350
 	0    1    1    0   
 $EndComp
@@ -189,9 +213,12 @@ L Device:Crystal Y1
 U 1 1 5D69B626
 P 5000 2550
 F 0 "Y1" H 5000 2818 50  0000 C CNN
-F 1 "ABL-3.579545MHZ-B2" H 5000 2727 50  0000 C CNN
+F 1 "3.58MHz" H 5000 2727 50  0000 C CNN
 F 2 "Crystal:Crystal_HC49-U_Vertical" H 5000 2550 50  0001 C CNN
 F 3 "~" H 5000 2550 50  0001 C CNN
+F 4 "	2467709" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	ABL-3.579545MHZ-B2" H 0   0   50  0001 C CNN "MPN"
+F 6 "Abracom" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5000 2550
 	1    0    0    -1  
 $EndComp
@@ -200,9 +227,12 @@ L Device:R R6
 U 1 1 5D69C569
 P 5650 2250
 F 0 "R6" H 5720 2296 50  0000 L CNN
-F 1 "1k" H 5720 2205 50  0000 L CNN
+F 1 "3k9" H 5720 2205 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5580 2250 50  0001 C CNN
 F 3 "~" H 5650 2250 50  0001 C CNN
+F 4 "9467912" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	MRS25000C3901FCT00" H 0   0   50  0001 C CNN "MPN"
+F 6 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5650 2250
 	1    0    0    -1  
 $EndComp
@@ -222,9 +252,12 @@ L Device:C C2
 U 1 1 5D69DB9F
 P 4400 2950
 F 0 "C2" H 4515 2996 50  0000 L CNN
-F 1 "12p" H 4515 2905 50  0000 L CNN
+F 1 "10p" H 4515 2905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4438 2800 50  0001 C CNN
 F 3 "~" H 4400 2950 50  0001 C CNN
+F 4 "2990761" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "RDE5C1H100J0M1H03A" H 0   0   50  0001 C CNN "MPN"
+F 6 "Murata" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4400 2950
 	1    0    0    -1  
 $EndComp
@@ -233,9 +266,12 @@ L Device:C C4
 U 1 1 5D69E031
 P 5650 2950
 F 0 "C4" H 5765 2996 50  0000 L CNN
-F 1 "12p" H 5765 2905 50  0000 L CNN
+F 1 "10p" H 5765 2905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5688 2800 50  0001 C CNN
 F 3 "~" H 5650 2950 50  0001 C CNN
+F 4 "2990761" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "RDE5C1H100J0M1H03A" H 0   0   50  0001 C CNN "MPN"
+F 6 "Murata" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5650 2950
 	1    0    0    -1  
 $EndComp
@@ -268,9 +304,12 @@ L 74xx:74HC14 U2
 U 2 1 5D69FED9
 P 6350 1450
 F 0 "U2" H 6350 1767 50  0000 C CNN
-F 1 "74AC14" H 6350 1676 50  0000 C CNN
+F 1 "74HC04" H 6350 1676 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6350 1450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 6350 1450 50  0001 C CNN
+F 4 "Texas Instruments" H 6350 1450 50  0001 C CNN "Manufacturer"
+F 5 "CD74HC04E" H 6350 1450 50  0001 C CNN "MPN"
+F 6 "3120186" H 6350 1450 50  0001 C CNN "Farnell #"
 	2    6350 1450
 	1    0    0    -1  
 $EndComp
@@ -298,10 +337,13 @@ $Comp
 L Switch:SW_DPDT_x2 SW2
 U 1 1 5D6EA0E7
 P 7450 1450
-F 0 "SW2" H 7450 1735 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 7450 1644 50  0000 C CNN
+F 0 "SW2" H 7450 1650 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 7450 1644 50  0001 C CNN
 F 2 "Switch_WUT:C+K_Slide_DPDT_JS202011CQN_TH" H 7450 1450 50  0001 C CNN
 F 3 "~" H 7450 1450 50  0001 C CNN
+F 4 "	2320018" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	JS202011CQN" H 0   0   50  0001 C CNN "MPN"
+F 6 "C&K Components" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7450 1450
 	1    0    0    -1  
 $EndComp
@@ -309,10 +351,13 @@ $Comp
 L Switch:SW_DPDT_x2 SW2
 U 2 1 5D6EBA2D
 P 10550 1450
-F 0 "SW2" H 10550 1735 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 10550 1644 50  0000 C CNN
+F 0 "SW2" H 10550 1650 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 10550 1644 50  0001 C CNN
 F 2 "Switch_WUT:C+K_Slide_DPDT_JS202011CQN_TH" H 10550 1450 50  0001 C CNN
 F 3 "~" H 10550 1450 50  0001 C CNN
+F 4 "	2320018" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	JS202011CQN" H 0   0   50  0001 C CNN "MPN"
+F 6 "C&K Components" H 0   0   50  0001 C CNN "Manufacturer"
 	2    10550 1450
 	-1   0    0    -1  
 $EndComp
@@ -329,9 +374,12 @@ L 74xx:74HC14 U2
 U 7 1 5D6F6B3D
 P 5400 5300
 F 0 "U2" H 5630 5346 50  0000 L CNN
-F 1 "74AC14" H 5630 5255 50  0000 L CNN
+F 1 "74HC04" H 5630 5255 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5400 5300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 5400 5300 50  0001 C CNN
+F 4 "Texas Instruments" H 5400 5300 50  0001 C CNN "Manufacturer"
+F 5 "CD74HC04E" H 5400 5300 50  0001 C CNN "MPN"
+F 6 "3120186" H 5400 5300 50  0001 C CNN "Farnell #"
 	7    5400 5300
 	1    0    0    -1  
 $EndComp
@@ -370,6 +418,9 @@ F 0 "C8" H 9315 2046 50  0000 L CNN
 F 1 "330p" H 9315 1955 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9238 1850 50  0001 C CNN
 F 3 "~" H 9200 2000 50  0001 C CNN
+F 4 "2990786" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	RDE5C2A331J0M1H03A" H 0   0   50  0001 C CNN "MPN"
+F 6 "Murata" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9200 2000
 	1    0    0    -1  
 $EndComp
@@ -381,6 +432,9 @@ F 0 "L3" V 10140 1750 50  0000 C CNN
 F 1 "3u3" V 10049 1750 50  0000 C CNN
 F 2 "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC" H 9950 1750 50  0001 C CNN
 F 3 "~" H 9950 1750 50  0001 C CNN
+F 4 "	608452" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	B78108S1332K000" H 0   0   50  0001 C CNN "MPN"
+F 6 "Epcos" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9950 1750
 	0    -1   -1   0   
 $EndComp
@@ -388,11 +442,13 @@ $Comp
 L Device:L L2
 U 1 1 5D6C5842
 P 8950 1750
-F 0 "L2" V 9250 1750 50  0000 C CNN
-F 1 "3u3" V 9150 1750 50  0000 C CNN
+F 0 "L2" V 9150 1750 50  0000 C CNN
+F 1 "3u3" V 9050 1750 50  0000 C CNN
 F 2 "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC" H 8950 1750 50  0001 C CNN
 F 3 "~" H 8950 1750 50  0001 C CNN
-F 4 "B78108S1332K000" V 9050 1750 50  0000 C CNN "MPN"
+F 4 "	B78108S1332K000" V 9050 1750 50  0001 C CNN "MPN"
+F 5 "	608452" H 0   0   50  0001 C CNN "Farnell #"
+F 6 "Epcos" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8950 1750
 	0    1    -1   0   
 $EndComp
@@ -404,6 +460,9 @@ F 0 "C9" H 9765 2046 50  0000 L CNN
 F 1 "1n" H 9765 1955 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9688 1850 50  0001 C CNN
 F 3 "~" H 9650 2000 50  0001 C CNN
+F 4 "2990765" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "RDE5C1H102J0M1H03A" H 0   0   50  0001 C CNN "MPN"
+F 6 "Murata" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9650 2000
 	1    0    0    -1  
 $EndComp
@@ -415,6 +474,9 @@ F 0 "C6" H 8365 2046 50  0000 L CNN
 F 1 "330p" H 8365 1955 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8288 1850 50  0001 C CNN
 F 3 "~" H 8250 2000 50  0001 C CNN
+F 4 "2990786" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	RDE5C2A331J0M1H03A" H 0   0   50  0001 C CNN "MPN"
+F 6 "Murata" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8250 2000
 	1    0    0    -1  
 $EndComp
@@ -426,6 +488,9 @@ F 0 "L1" V 8190 1750 50  0000 C CNN
 F 1 "3u3" V 8099 1750 50  0000 C CNN
 F 2 "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC" H 8000 1750 50  0001 C CNN
 F 3 "~" H 8000 1750 50  0001 C CNN
+F 4 "	608452" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	B78108S1332K000" H 0   0   50  0001 C CNN "MPN"
+F 6 "Epcos" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8000 1750
 	0    -1   -1   0   
 $EndComp
@@ -437,6 +502,9 @@ F 0 "C5" H 7865 2046 50  0000 L CNN
 F 1 "680p" H 7865 1955 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7788 1850 50  0001 C CNN
 F 3 "~" H 7750 2000 50  0001 C CNN
+F 4 "1100511" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "SR211A681JAR" H 0   0   50  0001 C CNN "MPN"
+F 6 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7750 2000
 	1    0    0    -1  
 $EndComp
@@ -463,9 +531,12 @@ L 74xx:74HC14 U2
 U 3 1 5D84DA9D
 P 6350 1950
 F 0 "U2" H 6350 2267 50  0000 C CNN
-F 1 "74AC14" H 6350 2176 50  0000 C CNN
+F 1 "74HC04" H 6350 2176 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6350 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 6350 1950 50  0001 C CNN
+F 4 "Texas Instruments" H 6350 1950 50  0001 C CNN "Manufacturer"
+F 5 "CD74HC04E" H 6350 1950 50  0001 C CNN "MPN"
+F 6 "3120186" H 6350 1950 50  0001 C CNN "Farnell #"
 	3    6350 1950
 	1    0    0    -1  
 $EndComp
@@ -474,9 +545,12 @@ L 74xx:74HC14 U2
 U 4 1 5D84F76D
 P 6350 2450
 F 0 "U2" H 6350 2767 50  0000 C CNN
-F 1 "74AC14" H 6350 2676 50  0000 C CNN
+F 1 "74HC04" H 6350 2676 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6350 2450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 6350 2450 50  0001 C CNN
+F 4 "Texas Instruments" H 6350 2450 50  0001 C CNN "Manufacturer"
+F 5 "CD74HC04E" H 6350 2450 50  0001 C CNN "MPN"
+F 6 "3120186" H 6350 2450 50  0001 C CNN "Farnell #"
 	4    6350 2450
 	1    0    0    -1  
 $EndComp
@@ -485,9 +559,12 @@ L 74xx:74HC14 U2
 U 5 1 5D850D59
 P 4300 5850
 F 0 "U2" H 4300 6167 50  0000 C CNN
-F 1 "74AC14" H 4300 6076 50  0000 C CNN
+F 1 "74HC04" H 4300 6076 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4300 5850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 4300 5850 50  0001 C CNN
+F 4 "Texas Instruments" H 4300 5850 50  0001 C CNN "Manufacturer"
+F 5 "CD74HC04E" H 4300 5850 50  0001 C CNN "MPN"
+F 6 "3120186" H 4300 5850 50  0001 C CNN "Farnell #"
 	5    4300 5850
 	1    0    0    -1  
 $EndComp
@@ -496,9 +573,12 @@ L 74xx:74HC14 U2
 U 6 1 5D8527CB
 P 6350 2950
 F 0 "U2" H 6350 3267 50  0000 C CNN
-F 1 "74AC14" H 6350 3176 50  0000 C CNN
+F 1 "74HC04" H 6350 3176 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6350 2950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 6350 2950 50  0001 C CNN
+F 4 "Texas Instruments" H 6350 2950 50  0001 C CNN "Manufacturer"
+F 5 "CD74HC04E" H 6350 2950 50  0001 C CNN "MPN"
+F 6 "3120186" H 6350 2950 50  0001 C CNN "Farnell #"
 	6    6350 2950
 	1    0    0    -1  
 $EndComp
@@ -530,9 +610,12 @@ L Connector_Generic:Conn_01x02 J4
 U 1 1 5D8AFED2
 P 8300 5000
 F 0 "J4" H 8380 4992 50  0000 L CNN
-F 1 "Conn_01x02" H 8380 4901 50  0000 L CNN
+F 1 "Conn_01x02" H 8380 4901 50  0001 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 8300 5000 50  0001 C CNN
 F 3 "~" H 8300 5000 50  0001 C CNN
+F 4 "1462926" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "22-23-2021" H 0   0   50  0001 C CNN "MPN"
+F 6 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8300 5000
 	1    0    0    -1  
 $EndComp
@@ -550,6 +633,9 @@ F 0 "J3" H 6470 5100 50  0000 R CNN
 F 1 "Jack-DC" H 6470 5009 50  0000 R CNN
 F 2 "Connector_WUT:Barrel-Jack_Cliff_FC681478_TH" H 6750 5010 50  0001 C CNN
 F 3 "~" H 6750 5010 50  0001 C CNN
+F 4 "	2450496" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "FC681478" H 0   0   50  0001 C CNN "MPN"
+F 6 "Cliff Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6700 5050
 	1    0    0    -1  
 $EndComp
@@ -577,6 +663,9 @@ F 0 "R7" V 6643 1450 50  0000 C CNN
 F 1 "200R" V 6734 1450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6780 1450 50  0001 C CNN
 F 3 "~" H 6850 1450 50  0001 C CNN
+F 4 "	9465880" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	MRS25000C2000FCT00" H 0   0   50  0001 C CNN "MPN"
+F 6 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6850 1450
 	0    1    1    0   
 $EndComp
@@ -588,6 +677,9 @@ F 0 "R8" V 6643 1950 50  0000 C CNN
 F 1 "200R" V 6734 1950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6780 1950 50  0001 C CNN
 F 3 "~" H 6850 1950 50  0001 C CNN
+F 4 "	9465880" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	MRS25000C2000FCT00" H 0   0   50  0001 C CNN "MPN"
+F 6 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6850 1950
 	0    1    1    0   
 $EndComp
@@ -599,6 +691,9 @@ F 0 "R9" V 6643 2450 50  0000 C CNN
 F 1 "200R" V 6734 2450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6780 2450 50  0001 C CNN
 F 3 "~" H 6850 2450 50  0001 C CNN
+F 4 "	9465880" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	MRS25000C2000FCT00" H 0   0   50  0001 C CNN "MPN"
+F 6 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6850 2450
 	0    1    1    0   
 $EndComp
@@ -610,6 +705,9 @@ F 0 "R10" V 6643 2950 50  0000 C CNN
 F 1 "200R" V 6734 2950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6780 2950 50  0001 C CNN
 F 3 "~" H 6850 2950 50  0001 C CNN
+F 4 "	9465880" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	MRS25000C2000FCT00" H 0   0   50  0001 C CNN "MPN"
+F 6 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6850 2950
 	0    1    1    0   
 $EndComp
@@ -641,41 +739,11 @@ F 0 "R1" H 1370 4796 50  0000 L CNN
 F 1 "680R" H 1370 4705 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 4750 50  0001 C CNN
 F 3 "~" H 1300 4750 50  0001 C CNN
+F 4 "Vishay" H 1300 4750 50  0001 C CNN "Manufacturer"
+F 5 "	MRS25000C6800FCT00" H 1300 4750 50  0001 C CNN "MPN"
+F 6 "	9469630" H 1300 4750 50  0001 C CNN "Farnell #"
 	1    1300 4750
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5D6F38DC
-P 2450 5200
-F 0 "R4" H 2520 5246 50  0000 L CNN
-F 1 "680R" H 2520 5155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2380 5200 50  0001 C CNN
-F 3 "~" H 2450 5200 50  0001 C CNN
-	1    2450 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D1
-U 1 1 5D6F40DC
-P 1300 5200
-F 0 "D1" V 1339 5083 50  0000 R CNN
-F 1 "HLMP-1521" V 1248 5083 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 1300 5200 50  0001 C CNN
-F 3 "~" H 1300 5200 50  0001 C CNN
-	1    1300 5200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D3
-U 1 1 5D6F4A33
-P 2450 5650
-F 0 "D3" V 2489 5533 50  0000 R CNN
-F 1 "HLMP-1521" V 2398 5533 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 2450 5650 50  0001 C CNN
-F 3 "~" H 2450 5650 50  0001 C CNN
-	1    2450 5650
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1300 4900 1300 5050
@@ -688,9 +756,12 @@ L Switch:SW_DPDT_x2 SW1
 U 2 1 5D6FEE44
 P 2450 4800
 F 0 "SW1" V 2496 4612 50  0000 R CNN
-F 1 "SW_DPDT_x2" V 2405 4612 50  0000 R CNN
+F 1 "SW_DPDT_x2" V 2405 4612 50  0001 R CNN
 F 2 "Switch_WUT:C+K_Slide_DPDT_JS202011CQN_TH" H 2450 4800 50  0001 C CNN
 F 3 "~" H 2450 4800 50  0001 C CNN
+F 4 "	2320018" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	JS202011CQN" H 0   0   50  0001 C CNN "MPN"
+F 6 "C&K Components" H 0   0   50  0001 C CNN "Manufacturer"
 	2    2450 4800
 	0    -1   -1   0   
 $EndComp
@@ -699,9 +770,12 @@ L Switch:SW_DPDT_x2 SW1
 U 1 1 5D6FFE02
 P 1300 5650
 F 0 "SW1" V 1254 5798 50  0000 L CNN
-F 1 "SW_DPDT_x2" V 1345 5798 50  0000 L CNN
+F 1 "SW_DPDT_x2" V 1345 5798 50  0001 L CNN
 F 2 "Switch_WUT:C+K_Slide_DPDT_JS202011CQN_TH" H 1300 5650 50  0001 C CNN
 F 3 "~" H 1300 5650 50  0001 C CNN
+F 4 "C&K Components" V 1300 5650 50  0001 C CNN "Manufacturer"
+F 5 "	JS202011CQN" V 1300 5650 50  0001 C CNN "MPN"
+F 6 "	2320018" V 1300 5650 50  0001 C CNN "Farnell #"
 	1    1300 5650
 	0    1    1    0   
 $EndComp
@@ -790,6 +864,9 @@ F 0 "C1" H 3815 4996 50  0000 L CNN
 F 1 "1uF" H 3815 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3738 4800 50  0001 C CNN
 F 3 "~" H 3700 4950 50  0001 C CNN
+F 4 "2990801" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "RDER71H105K2M1H03A" H 0   0   50  0001 C CNN "MPN"
+F 6 "Murata" H 0   0   50  0001 C CNN "Manufacturer"
 	1    3700 4950
 	1    0    0    -1  
 $EndComp
@@ -801,6 +878,9 @@ F 0 "C3" H 4915 4996 50  0000 L CNN
 F 1 "1uF" H 4915 4905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4838 4800 50  0001 C CNN
 F 3 "~" H 4800 4950 50  0001 C CNN
+F 4 "2990801" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "RDER71H105K2M1H03A" H 0   0   50  0001 C CNN "MPN"
+F 6 "Murata" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4800 4950
 	1    0    0    -1  
 $EndComp
@@ -898,12 +978,8 @@ $EndComp
 Wire Wire Line
 	5400 4500 5400 4750
 Connection ~ 5400 4750
-Wire Notes Line
-	3450 6400 3450 4200
 Text Notes 4200 4100 0    100  ~ 0
 Miscellaneous
-Wire Notes Line
-	5950 4200 5950 6400
 Wire Notes Line
 	3450 4200 5950 4200
 Text Notes 9600 4100 0    100  ~ 0
@@ -938,8 +1014,6 @@ Wire Notes Line
 	6100 4200 6100 5700
 Wire Notes Line
 	8900 4200 8900 5700
-Text Notes 4700 2800 0    50   ~ 0
-Freq = 3.58MHz
 $Comp
 L power:GND #PWR08
 U 1 1 5D97038E
@@ -963,6 +1037,9 @@ F 0 "C7" H 8815 2046 50  0000 L CNN
 F 1 "1n" H 8815 1955 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8738 1850 50  0001 C CNN
 F 3 "~" H 8700 2000 50  0001 C CNN
+F 4 "2990765" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "RDE5C1H102J0M1H03A" H 0   0   50  0001 C CNN "MPN"
+F 6 "Murata" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8700 2000
 	1    0    0    -1  
 $EndComp
@@ -1000,6 +1077,9 @@ F 0 "C10" H 10315 2046 50  0000 L CNN
 F 1 "680p" H 10315 1955 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10238 1850 50  0001 C CNN
 F 3 "~" H 10200 2000 50  0001 C CNN
+F 4 "1100511" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "SR211A681JAR" H 0   0   50  0001 C CNN "MPN"
+F 6 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
 	1    10200 2000
 	1    0    0    -1  
 $EndComp
@@ -1027,6 +1107,9 @@ F 0 "R11" H 8030 3004 50  0000 R CNN
 F 1 "51R" H 8030 3095 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8030 3050 50  0001 C CNN
 F 3 "~" H 8100 3050 50  0001 C CNN
+F 4 "	9468889" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "MRS25000C5109FCT00" H 0   0   50  0001 C CNN "MPN"
+F 6 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8100 3050
 	-1   0    0    1   
 $EndComp
@@ -1038,6 +1121,9 @@ F 0 "R12" V 8143 2800 50  0000 C CNN
 F 1 "680R" V 8234 2800 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8280 2800 50  0001 C CNN
 F 3 "~" H 8350 2800 50  0001 C CNN
+F 4 "	9469630" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	MRS25000C6800FCT00" H 0   0   50  0001 C CNN "MPN"
+F 6 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8350 2800
 	0    1    1    0   
 $EndComp
@@ -1089,6 +1175,9 @@ F 0 "J5" H 10450 2775 50  0000 L CNN
 F 1 "Conn_Coaxial" H 10450 2684 50  0000 L CNN
 F 2 "Connector_WUT:SMA_TE_5-1814832-1_Vertical" H 10350 2800 50  0001 C CNN
 F 3 " ~" H 10350 2800 50  0001 C CNN
+F 4 "1248990" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "5-1814832-1" H 0   0   50  0001 C CNN "MPN"
+F 6 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
 	1    10350 2800
 	1    0    0    -1  
 $EndComp
@@ -1124,8 +1213,11 @@ U 1 1 5D784DAD
 P 4300 4750
 F 0 "U1" H 4300 4992 50  0000 C CNN
 F 1 "L78L05_TO92" H 4300 4901 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4300 4975 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-92L" H 4300 4975 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 4300 4700 50  0001 C CNN
+F 4 "	1467763" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "	L78L05ACZ" H 0   0   50  0001 C CNN "MPN"
+F 6 "ST Microelectronics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4300 4750
 	1    0    0    -1  
 $EndComp
@@ -1137,6 +1229,9 @@ F 0 "BT1" H 7658 5096 50  0000 L CNN
 F 1 "Battery" H 7658 5005 50  0000 L CNN
 F 2 "Connector_WUT:Battery_PP3_Keystone_1294_TH" V 7550 5110 50  0001 C CNN
 F 3 "~" V 7550 5110 50  0001 C CNN
+F 4 "1650674" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "1294" H 0   0   50  0001 C CNN "MPN"
+F 6 "Keystone" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7550 5050
 	1    0    0    -1  
 $EndComp
@@ -1221,25 +1316,14 @@ Wire Wire Line
 Wire Wire Line
 	1900 2750 2000 2750
 $Comp
-L Misc_WUT:Barrel_Polarity M1
-U 1 1 5D873F38
-P 5650 6700
-F 0 "M1" H 5675 6746 50  0000 L CNN
-F 1 "Barrel_Polarity" H 5675 6655 50  0000 L CNN
-F 2 "Misc_WUT:Barrel_Polarity" H 5650 6700 50  0001 C CNN
-F 3 "" H 5650 6700 50  0001 C CNN
-	1    5650 6700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Misc_WUT:Logo_10mmx10mm M2
 U 1 1 5D88AAFD
-P 5650 6900
-F 0 "M2" H 5675 6946 50  0000 L CNN
-F 1 "Logo_10mmx10mm" H 5675 6855 50  0000 L CNN
-F 2 "Misc_WUT:Logo_10mmx10mm" H 5650 6900 50  0001 C CNN
-F 3 "" H 5650 6900 50  0001 C CNN
-	1    5650 6900
+P 6150 6850
+F 0 "M2" H 6175 6896 50  0000 L CNN
+F 1 "Logo_10mmx10mm" H 6175 6805 50  0000 L CNN
+F 2 "Misc_WUT:Logo_10mmx10mm" H 6150 6850 50  0001 C CNN
+F 3 "" H 6150 6850 50  0001 C CNN
+	1    6150 6850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1266,6 +1350,9 @@ F 0 "R13" H 8670 3096 50  0000 L CNN
 F 1 "51R" H 8670 3005 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8530 3050 50  0001 C CNN
 F 3 "~" H 8600 3050 50  0001 C CNN
+F 4 "	9468889" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "MRS25000C5109FCT00" H 0   0   50  0001 C CNN "MPN"
+F 6 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8600 3050
 	1    0    0    -1  
 $EndComp
@@ -1283,6 +1370,9 @@ F 0 "D6" V 8054 4729 50  0000 L CNN
 F 1 "1N5818" V 8145 4729 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8100 4650 50  0001 C CNN
 F 3 "~" H 8100 4650 50  0001 C CNN
+F 4 "1017588" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "1N5818" H 0   0   50  0001 C CNN "MPN"
+F 6 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8100 4650
 	0    1    1    0   
 $EndComp
@@ -1294,6 +1384,9 @@ F 0 "D4" V 6954 4729 50  0000 L CNN
 F 1 "1N5818" V 7045 4729 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7000 4650 50  0001 C CNN
 F 3 "~" H 7000 4650 50  0001 C CNN
+F 4 "1017588" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "1N5818" H 0   0   50  0001 C CNN "MPN"
+F 6 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7000 4650
 	0    1    1    0   
 $EndComp
@@ -1307,6 +1400,9 @@ F 0 "D5" V 7504 4729 50  0000 L CNN
 F 1 "1N5818" V 7595 4729 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7550 4650 50  0001 C CNN
 F 3 "~" H 7550 4650 50  0001 C CNN
+F 4 "1017588" H 0   0   50  0001 C CNN "Farnell #"
+F 5 "1N5818" H 0   0   50  0001 C CNN "MPN"
+F 6 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7550 4650
 	0    1    1    0   
 $EndComp
@@ -1366,4 +1462,63 @@ F 3 "~" H 7750 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7550 4400 7550 4450
+Wire Notes Line
+	3450 7100 5950 7100
+Wire Notes Line
+	3450 4200 3450 7100
+Wire Notes Line
+	5950 4200 5950 7100
+$Comp
+L Misc_WUT:Barrel_Polarity M1
+U 1 1 5D873F38
+P 6150 6650
+F 0 "M1" H 6175 6696 50  0000 L CNN
+F 1 "Barrel_Polarity" H 6175 6605 50  0000 L CNN
+F 2 "Misc_WUT:Barrel_Polarity" H 6150 6650 50  0001 C CNN
+F 3 "" H 6150 6650 50  0001 C CNN
+	1    6150 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5DB9C07C
+P 1300 5200
+F 0 "D1" V 1339 5082 50  0000 R CNN
+F 1 "HLMP-1521" V 1248 5082 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 1300 5200 50  0001 C CNN
+F 3 "~" H 1300 5200 50  0001 C CNN
+F 4 "Broadcom" V 1300 5200 50  0001 C CNN "Manufacturer"
+F 5 "HLMP-1521" V 1300 5200 50  0001 C CNN "MPN"
+F 6 "1003375" V 1300 5200 50  0001 C CNN "Farnell #"
+	1    1300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5DBA3191
+P 2450 5200
+F 0 "R4" H 2520 5246 50  0000 L CNN
+F 1 "680R" H 2520 5155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2380 5200 50  0001 C CNN
+F 3 "~" H 2450 5200 50  0001 C CNN
+F 4 "Vishay" H 2450 5200 50  0001 C CNN "Manufacturer"
+F 5 "	MRS25000C6800FCT00" H 2450 5200 50  0001 C CNN "MPN"
+F 6 "	9469630" H 2450 5200 50  0001 C CNN "Farnell #"
+	1    2450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5DBAA09E
+P 2450 5650
+F 0 "D3" V 2489 5532 50  0000 R CNN
+F 1 "HLMP-1521" V 2398 5532 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 2450 5650 50  0001 C CNN
+F 3 "~" H 2450 5650 50  0001 C CNN
+F 4 "Broadcom" V 2450 5650 50  0001 C CNN "Manufacturer"
+F 5 "HLMP-1521" V 2450 5650 50  0001 C CNN "MPN"
+F 6 "1003375" V 2450 5650 50  0001 C CNN "Farnell #"
+	1    2450 5650
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
