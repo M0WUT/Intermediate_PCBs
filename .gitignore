@@ -24,6 +24,6 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
-2e0_pcb/*.pdf
+
 2e0_pcb/Gerbers
 2e0_pcb/fp-info-cache
